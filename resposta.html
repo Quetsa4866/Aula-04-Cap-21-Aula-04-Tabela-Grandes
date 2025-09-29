@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabela de População</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background-color: #ddd;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+      .risco {
+        text-decoration: line-through;
+      }
+      .sublinhado {
+        text-decoration: underline;
+      }
+      .sobrescrito {
+        vertical-align: super;
+        font-size: smaller;
+      }
+      .subs {
+        vertical-align: sub;
+        font-size: smaller;
+      }
+      .monospace {
+        font-family: monospace;
+      }
+      .pre {
+        white-space: pre;
+      }
+      .pequeno {
+        font-size: smaller;
+      }
+      .citacao-bloco {
+        display: block;
+        margin: 10px 0;
+        padding-left: 10px;
+        border-left: 3px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+        <h1>Populaçao dos Estados Brasileiros - 2024 </h1>
+      <tr>
+        <th>Estado</th>
+        <th>População</th>
+        <th>Comando HTML Utilizado</th>
+      </tr>
+      <tr>
+        <td>Acre</td>
+        <td class="highlight">830.018</td>
+        <td><strong>‘Negrito’</strong> e <mark>‘Destacado’</mark></td>
+      </tr>
+      <tr>
+        <td><em>Alagoas</em></td>
+        <td>3.365.351</td>
+        <td><em>‘Itálico’</em></td>
+      </tr>
+      <tr>
+        <td>Amapá</td>
+        <td>877.613</td>
+        <td><span class="sublinhado">‘Texto sublinhado’</span></td>
+      </tr>
+      <tr>
+        <td class="risco">Amazonas</td>
+        <td>4.260.995</td>
+        <td>
+          <sup>‘Texto riscado’</sup> e
+          <span class="sublinhado">‘Texto sublinhado’</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Bahia</td>
+        <td>14.141.626</td>
+        <td><span class="sobrescrito">‘Texto sobrescrito’</span></td>
+      </tr>
+      <tr>
+        <td>CE</td>
+        <td>9.240.580</td>
+        <td><abbr title="Ceará">‘Abreviação’</abbr></td>
+      </tr>
+      <tr>
+        <td><strong>Distrito Federal</strong></td>
+        <td>3.098.883</td>
+        <td><strong>‘Texto em negrito’</strong></td>
+      </tr>
+      <tr>
+        <td>“Espirito Santo”</td>
+        <td>4.108.508</td>
+        <td><q>‘Citação curta’</q></td>
+      </tr>
+      <tr>
+        <td><cite>Goiás</cite></td>
+        <td>7.206.589</td>
+        <td><cite>‘Citação de fonte’</cite></td>
+      </tr>
+      <tr>
+        <td class="monospace">Maranhão</td>
+        <td>6.775.805</td>
+        <td><code>‘texto monoespaçado’</code></td>
+      </tr>
+      <tr>
+        <td>Mato Grosso</td>
+        <td>3.658.813</td>
+        <td><pre>Texto pré-formatado</pre></td>
+      </tr>
+      <tr>
+        <td>Paraíba</td>
+        <td>4.059.905</td>
+        <td><span class="pequeno">‘Texto pequeno’</span></td>
+      </tr>
+      <tr>
+        <td>Piauí</td>
+        <td>3.281.480</td>
+        <td><span class="subs">Texto subscrito</span></td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td>16.054.524</td>
+        <td><blockquote class="citacao-bloco">Citação em bloco</blockquote></td>
+      </tr>
+      <tr>
+        <td><strong>Rio Grande do Sul</strong></td>
+        <td>10.882.965</td>
+        <td><strong>‘Negrito’</strong></td>
+      </tr>
+      <tr>
+        <td><em>Rondônia</em></td>
+        <td>1.616.379</td>
+        <td><em>‘Itálico’</em></td>
+      </tr>
+      <tr>
+        <td class="highlight">Roraima</td>
+        <td class="highlight">636.707</td>
+        <td><mark>Texto destacado</mark></td>
+      </tr>
+      <tr>
+        <td>TO</td>
+        <td>1.607.363</td>
+        <td><abbr title="Tocantins">‘Abreviação’</abbr></td>
+      </tr>
+      <tr>
+        <th>Total da população estimada:</th>
+        <th colspan="2">Soma total das colunas</th>
+        <th>Total da população estimada:</th>
+      </tr>
+    </table>
+  </body>
+</html>
